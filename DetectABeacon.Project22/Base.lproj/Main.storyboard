@@ -32,6 +32,9 @@
                             <constraint firstItem="GYQ-9l-QYN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="13" id="twd-46-S8M"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="distanceReading" destination="GYQ-9l-QYN" id="8dW-23-vgh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
