@@ -9,7 +9,7 @@
 import UIKit
 import  CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CLLocationManagerDelegate {
 
     @IBOutlet weak var distanceReading: UILabel!
     
