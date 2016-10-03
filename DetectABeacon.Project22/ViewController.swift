@@ -35,7 +35,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         if status == .authorizedWhenInUse {
             if CLLocationManager.isMonitoringAvailable(for: CLBeacon.self) {
                 if CLLocationManager.isRangingAvailable() {
-                    // do stuff
+                    startScanning()
                 }
             }
         }
