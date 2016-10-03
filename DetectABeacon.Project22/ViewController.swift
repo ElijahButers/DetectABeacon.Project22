@@ -59,15 +59,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 self.distanceReading.text = "UNKNOWN"
             
             case .far:
-                self.view.backgroundColor = UIColor.gray
+                self.view.backgroundColor = UIColor.blue
                 self.distanceReading.text = "FAR"
             
             case .near:
-                self.view.backgroundColor = UIColor.gray
+                self.view.backgroundColor = UIColor.orange
                 self.distanceReading.text = "NEAR"
             
             case .immediate:
-                self.view.backgroundColor = UIColor.gray
+                self.view.backgroundColor = UIColor.red
                 self.distanceReading.text = "RIGHT HERE"
                 }
             }
